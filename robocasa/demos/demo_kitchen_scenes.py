@@ -80,7 +80,7 @@ if __name__ == "__main__":
         "--layout", type=int, help="kitchen layout (choose number 1-60)"
     )
     parser.add_argument("--style", type=int, help="kitchen style (choose number 1-60)")
-    parser.add_argument("--robot", type=str, help="robot", default="PandaOmron")
+    parser.add_argument("--robot", type=str, help="robot", default="Tiago")
     parser.add_argument(
         "--show-walls",
         action="store_true",

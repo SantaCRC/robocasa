@@ -107,8 +107,8 @@ if __name__ == "__main__":
     # Create argument configuration
     config = {
         "env_name": args.task,
-        "robots": "PandaOmron",
-        "controller_configs": load_composite_controller_config(robot="PandaOmron"),
+        "robots": "Tiago",
+        "controller_configs": load_composite_controller_config(robot="Tiago"),
         "layout_ids": args.layout,
         "style_ids": args.style,
         "translucent_robot": True,
